@@ -1,0 +1,39 @@
+.hero-section {
+  background-color: #a4a0a0;
+  padding: 8rem 0 4rem 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  animation: jump 1s infinite alternate;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #1f1d1d;
+  margin-bottom: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.hero-image {
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes jump {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}

@@ -1,0 +1,9 @@
+.reviews-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Georgia', serif;
+  color: #222222;
+  background-color: #f9f6f1;
+  box-sizing: border-box;
+}

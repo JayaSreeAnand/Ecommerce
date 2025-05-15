@@ -1,0 +1,50 @@
+.why-gantham-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-gantham-content {
+  flex: 1 1 400px;
+  max-width: 600px;
+  padding: 1rem 2rem;
+  border-left: 2px solid #fff;
+}
+
+.why-gantham-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.why-gantham-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.why-gantham-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.why-gantham-image-container {
+  flex: 1 1 400px;
+  max-width: 600px;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.why-gantham-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}

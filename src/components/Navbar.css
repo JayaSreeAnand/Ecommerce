@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  background: transparent;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-logo-link {
+  font-size: 24px;
+  font-weight: bold;
+  color: black !important; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo-link:hover {
+  color: gray !important; 
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: black; /* Changed from blue to black */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-links li a:hover {
+  color: gray; /* Hover color gray */
+}
+
+.navbar-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: black; /* Button text black */
+  margin-left: 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-actions button:hover {
+  color: gray; /* Hover color gray */
+}
+
+/* Dark mode styles */
+body.dark .navbar {
+  background-color: #222;
+  box-shadow: none;
+}
+
+body.dark .navbar-logo-link {
+  color: white; /* Navbar heading white in dark mode */
+}
+
+body.dark .navbar-logo-link:hover {
+  color: gray; /* Hover color gray in dark mode */
+}
+
+body.dark .navbar-links li a,
+body.dark .navbar-actions button {
+  color: white; /* Text white in dark mode */
+}
+
+body.dark .navbar-links li a:hover,
+body.dark .navbar-actions button:hover {
+  color: gray; /* Hover color gray in dark mode */
+}

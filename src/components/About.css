@@ -1,0 +1,97 @@
+.about-section {
+  text-align: center;
+  padding: 6rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #000;
+}
+
+.about-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+  font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+}
+
+.about-mission-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.about-mission-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-mission-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-timeline-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.timeline-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem;
+  min-width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #fff;
+  flex-shrink: 0;
+}
+
+.timeline-year {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #d2691e;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.timeline-description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+}
